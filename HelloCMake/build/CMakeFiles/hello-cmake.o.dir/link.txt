@@ -1,1 +1,2 @@
-/usr/bin/cc CMakeFiles/hello-cmake.o.dir/src/lib/hellocmake.c.o CMakeFiles/hello-cmake.o.dir/src/main.c.o -o hello-cmake.o 
+/usr/bin/ar qc libhello-cmake.o.a CMakeFiles/hello-cmake.o.dir/src/lib/hellocmake.c.o CMakeFiles/hello-cmake.o.dir/src/main.c.o
+/usr/bin/ranlib libhello-cmake.o.a

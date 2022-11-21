@@ -12,4 +12,4 @@ project_root=${build_dir%/*}
 
 output_dir="${project_root}/output"
 
-output_object="hello-cmake.o"
+output_object="hello-cmake.exe"

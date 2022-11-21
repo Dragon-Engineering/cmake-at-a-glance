@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/hellocmake.h
+
+/home/pavl-machine/Projects/cmake-at-a-glance/HelloCMake/src/lib/hellocmake.c
+hellocmake.h
+-
+stdio.h
+-
+
+/home/pavl-machine/Projects/cmake-at-a-glance/HelloCMake/src/main.c
+hellocmake.h
+-
+

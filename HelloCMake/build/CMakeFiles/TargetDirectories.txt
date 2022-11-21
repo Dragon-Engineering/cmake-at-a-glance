@@ -1,0 +1,3 @@
+/home/pavl-machine/Projects/cmake-at-a-glance/HelloCMake/build/CMakeFiles/rebuild_cache.dir
+/home/pavl-machine/Projects/cmake-at-a-glance/HelloCMake/build/CMakeFiles/edit_cache.dir
+/home/pavl-machine/Projects/cmake-at-a-glance/HelloCMake/build/CMakeFiles/hello-cmake.o.dir

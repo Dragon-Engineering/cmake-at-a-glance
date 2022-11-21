@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/hello-cmake.exe.dir/src/lib/hellocmake.c.o CMakeFiles/hello-cmake.exe.dir/src/main.c.o -o hello-cmake.exe 

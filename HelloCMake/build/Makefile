@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello-cmake.o
+# Target rules for targets named hello-cmake.exe
 
 # Build rule for target.
-hello-cmake.o: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-cmake.o
-.PHONY : hello-cmake.o
+hello-cmake.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello-cmake.exe
+.PHONY : hello-cmake.exe
 
 # fast build rule for target.
-hello-cmake.o/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.o.dir/build.make CMakeFiles/hello-cmake.o.dir/build
-.PHONY : hello-cmake.o/fast
+hello-cmake.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.exe.dir/build.make CMakeFiles/hello-cmake.exe.dir/build
+.PHONY : hello-cmake.exe/fast
 
 src/lib/hellocmake.o: src/lib/hellocmake.c.o
 
@@ -148,7 +148,7 @@ src/lib/hellocmake.o: src/lib/hellocmake.c.o
 
 # target to build an object file
 src/lib/hellocmake.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.o.dir/build.make CMakeFiles/hello-cmake.o.dir/src/lib/hellocmake.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.exe.dir/build.make CMakeFiles/hello-cmake.exe.dir/src/lib/hellocmake.c.o
 .PHONY : src/lib/hellocmake.c.o
 
 src/lib/hellocmake.i: src/lib/hellocmake.c.i
@@ -157,7 +157,7 @@ src/lib/hellocmake.i: src/lib/hellocmake.c.i
 
 # target to preprocess a source file
 src/lib/hellocmake.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.o.dir/build.make CMakeFiles/hello-cmake.o.dir/src/lib/hellocmake.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.exe.dir/build.make CMakeFiles/hello-cmake.exe.dir/src/lib/hellocmake.c.i
 .PHONY : src/lib/hellocmake.c.i
 
 src/lib/hellocmake.s: src/lib/hellocmake.c.s
@@ -166,7 +166,7 @@ src/lib/hellocmake.s: src/lib/hellocmake.c.s
 
 # target to generate assembly for a file
 src/lib/hellocmake.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.o.dir/build.make CMakeFiles/hello-cmake.o.dir/src/lib/hellocmake.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.exe.dir/build.make CMakeFiles/hello-cmake.exe.dir/src/lib/hellocmake.c.s
 .PHONY : src/lib/hellocmake.c.s
 
 src/main.o: src/main.c.o
@@ -175,7 +175,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.o.dir/build.make CMakeFiles/hello-cmake.o.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.exe.dir/build.make CMakeFiles/hello-cmake.exe.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -184,7 +184,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.o.dir/build.make CMakeFiles/hello-cmake.o.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.exe.dir/build.make CMakeFiles/hello-cmake.exe.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -193,7 +193,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.o.dir/build.make CMakeFiles/hello-cmake.o.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-cmake.exe.dir/build.make CMakeFiles/hello-cmake.exe.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -204,7 +204,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello-cmake.o"
+	@echo "... hello-cmake.exe"
 	@echo "... src/lib/hellocmake.o"
 	@echo "... src/lib/hellocmake.i"
 	@echo "... src/lib/hellocmake.s"

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hello-cmake.o.dir/src/lib/hellocmake.c.o"
   "CMakeFiles/hello-cmake.o.dir/src/main.c.o"
-  "hello-cmake.o"
-  "hello-cmake.o.pdb"
+  "libhello-cmake.o.a"
+  "libhello-cmake.o.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
